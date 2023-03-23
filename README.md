@@ -17,3 +17,4 @@ N/A
 
 ## Links
 Challenge repository: https://github.com/bear-muna/first-challenge
+Deployed site: https://bear-muna.github.io/first-challenge/
