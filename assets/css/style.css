@@ -1,5 +1,6 @@
 /* Style sheet */
-/* TODO: FIGURE OUT HOW TO CONSOLIDATE THE FONTE-FAMILY INTO ONLY 2 TIMES    DONE    */
+
+/* Styles all elements */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,8 +12,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* TODO: fix .header class and all of its child elements DONE */
-/* Seems a little redundent */
+/* Start of <header> element */
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -50,11 +50,11 @@ a {
     text-decoration: none;
 }
 
+/* Start of <main> element */
 p {
     font-size: 16px;
 }
 
-/* Background image for webpage */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,7 +63,6 @@ p {
     background-position: center;
 }
 
-/* Moves images to the left and right of the section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -90,30 +89,22 @@ p {
     background-color: #2589bd;
 }
 
-/* Redundency in the .benefit */
-/* TODO: Can merge all three  DONE   */
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Redundency in the h3 */
-/* TODO: Can merge all three  DONE  */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Redundency in the img */
-/* TODO: Can merge all three   DONE  */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Redundency amongst the classes */
-/* TODO: Can merge all three  DONE   */
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -122,20 +113,16 @@ p {
     color: #ffffff;
 }
 
-/* Redundency in the img */
-/* TODO: Merge all three  DONE   */
 .content img {
     max-height: 200px;
 }
 
-/* Redundency in the h2 */
-/* TODO: Merge all three   DONE  */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Should have a footer within the HTML */
+/* Start of <footer> element */
 footer {
     padding: 30px;
     clear: both;
